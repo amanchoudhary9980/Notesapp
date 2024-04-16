@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+.notes{
+  margin: 55px 15%;
+}
+.notes-heading{
+  font-weight: 600;
+  font-size: 36px;
+}
+.notes-grid{
+  margin: 3rem 0;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+.note{
+  min-height: 250px;
+  background-color: #C8DCFA;
+  padding: 20px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+}
+.note-heading{
+  font-weight: 600;
+  font-size: 20px;
+  margin: 5px 0;
+}
+.note-text{
+  color: #454545;
+  min-height: 75%;
+}
+.note-footer{
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+  align-items: center;
+}
+.footer-trash{
+  cursor: pointer;
+  border-radius: 30px;
+}
+.footer-trash:hover{
+  background-color:#a1c5fc;
+}
+.footer-check{
+  display: flex;
+
+}
+
+.new{
+  background-color: #efefef;
+}
+.new > .note-heading > input{
+  background-color: #efefef;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+.new > .note-heading > input:focus{
+  outline: none;
+}
+textarea{
+  background-color: #efefef;
+  border: none;
+  resize: none;
+  height: 75%;
+  font-size: 16px;
+}
+textarea:focus{
+  outline: none;
+}
+.save{
+  padding: 10px 30px;
+  background-color: #669AFF;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+}
+.save:hover{
+  background-color: #2b6bec;
+}
+.form-check-input{
+  margin: 0;
+}
