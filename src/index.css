@@ -1,26 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
   margin: 0;
   padding: 0;
   font-family: Montserrat;
 }
-.notes{
+.notes {
   margin: 55px 15%;
 }
-.notes-heading{
+.notes-heading {
   font-weight: 600;
   font-size: 36px;
 }
-.notes-grid{
+.notes-grid {
   margin: 3rem 0;
   display: grid;
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
-.note{
+.note {
   min-height: 250px;
-  background-color: #C8DCFA;
+  background-color: #c8dcfa;
   padding: 20px;
   border-radius: 16px;
   display: flex;
@@ -28,66 +28,66 @@
   justify-content: space-between;
   white-space: pre-wrap;
 }
-.note-heading{
+.note-heading {
   font-weight: 600;
   font-size: 20px;
   margin: 5px 0;
+  overflow: hidden;
 }
-.note-text{
+.note-text {
   color: #454545;
   min-height: 75%;
 }
-.note-footer{
+.note-footer {
   display: flex;
   justify-content: end;
   gap: 5px;
   align-items: center;
 }
-.footer-trash{
+.footer-trash {
   cursor: pointer;
   border-radius: 30px;
 }
-.footer-trash:hover{
-  background-color:#a1c5fc;
+.footer-trash:hover {
+  background-color: #a1c5fc;
 }
-.footer-check{
+.footer-check {
   display: flex;
-
 }
 
-.new{
+.new {
   background-color: #efefef;
 }
-.new > .note-heading > input{
+.new > .note-heading > input {
   background-color: #efefef;
   border: none;
   font-size: 20px;
   font-weight: 600;
 }
-.new > .note-heading > input:focus{
+.new > .note-heading > input:focus {
   outline: none;
 }
-textarea{
+textarea {
   background-color: #efefef;
   border: none;
   resize: none;
   height: 75%;
   font-size: 16px;
 }
-textarea:focus{
+textarea:focus {
   outline: none;
 }
-.save{
+.save {
   padding: 10px 30px;
-  background-color: #669AFF;
+  background-color: #669aff;
   border: none;
   border-radius: 8px;
   color: white;
   font-weight: 600;
 }
-.save:hover{
+.save:hover {
   background-color: #2b6bec;
 }
-.form-check-input{
+.form-check-input {
   margin: 0;
 }

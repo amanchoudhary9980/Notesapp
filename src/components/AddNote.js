@@ -14,7 +14,7 @@ const AddNote = ({handleAddNote}) => {
         setNoteHeading(e.target.value)
     }
     const handleSaveClick = () => {
-        if(noteText.trim().length > 0 || noteHeading.trim().length > 0){
+        if(noteText.trim().length > 0 && noteHeading.trim().length > 0){
             handleAddNote(noteText, noteHeading)
             setNoteHeading('')
             setNoteText('')
