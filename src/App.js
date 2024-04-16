@@ -9,6 +9,7 @@ const App = () => {
           {
             key: nanoid(),
             id: nanoid(),
+            color: '',
             heading: "Hello!",
             text: "This is a dummy note",
           },
@@ -26,11 +27,12 @@ const App = () => {
     window.localStorage.setItem("react-notes-app-data", JSON.stringify(notes));
   }, [notes]);
 
-  const addNote = (text, heading) => {
+  const addNote = (text, heading, color) => {
     const newNote = {
       key: nanoid(),
       id: nanoid(),
       text: text,
+      color: color,
       heading: heading,
     };
     const newNotes = [...notes, newNote];

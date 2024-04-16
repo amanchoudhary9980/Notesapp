@@ -1,9 +1,9 @@
 // import React, { useState } from "react";
 import DeleteOutlineOutlinedIcon from "@mui/icons-material/DeleteOutlineOutlined";
 
-const Note = ({ id, text, heading, handleDeleteNote }) => {
+const Note = ({ id, text, heading, color, handleDeleteNote }) => {
   return (
-    <div className="note">
+    <div className="note" style={{backgroundColor: color}}>
       <div className="note-heading">{heading}</div>
       <div className="note-text">{text}</div>
       <div className="note-footer">
