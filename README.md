@@ -17,7 +17,7 @@ This is a simple notes app built using React. It allows users to create, edit, a
    ```
 2. Navigate to the project directory:
    ```bash
-   cd react-notes-app
+   cd Notesapp
    ```
 3. Install dependencies:
    ```bash
