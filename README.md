@@ -6,7 +6,7 @@
 This is a simple notes app built using React. It allows users to create, edit, and delete notes.
 
 ## Features
-- Create new notes
+- Create new notes with colours
 - Edit existing notes
 - Delete notes
 
