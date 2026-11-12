@@ -1,5 +1,3 @@
----
-
 # React Notes App
 
 ## Description
@@ -31,16 +29,6 @@ This is a simple notes app built using React. It allows users to create, edit, a
    ```
 2. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-## Contributing
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch`
-3. Make your changes and commit them: `git commit -m 'Add new feature'`
-4. Push to the branch: `git push origin feature-branch`
-5. Submit a pull request.
+## Stack
 
-## Credits
-This project was created by Aman Choudhary. 
-
-
----
+React 18 (Create React App), CSS
